@@ -1,0 +1,84 @@
+{
+    "intents": [
+    {"tag": "Claudine Allen",
+    "patterns": ["who is Claudine Allen","Claudine Allen Contact Details","Claudine Allen","Claudine Allen the lecturer"],
+    "responses": ["Dr. Claudine Allen<br>Lecturer<br>claudine.allen@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-claudine-allen"]
+    },
+    {"tag": "Ricardo Anderson",
+    "patterns": ["who is Ricardo Anderson","Ricardo Anderson Contact Details","Ricardo Anderson","Ricardo Anderson the lecturer"],
+    "responses": ["Dr. Ricardo Anderson<br>Lecturer<br>ricardo.anderson02@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-ricardo-anderson"]
+    },
+    {"tag": "Carl Beckford",
+    "patterns": ["who is Carl Beckford","Carl Beckford Contact Details","Carl Beckford","Carl Beckford the lecturer"],
+    "responses": ["Dr. Carl Beckford<br>Lecturer<br>carl.beckford@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-carl-beckford"]
+    },
+    {"tag": "Phillippa Bennett",
+    "patterns": ["who is Phillippa Bennett","Phillippa Bennett Contact Details","Phillippa Bennett","Phillippa Bennett the lecturer"],
+    "responses": ["Dr. Phillippa Bennett<br>Lecturer<br>phillipa.bennett02@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-phillippa-bennett"]
+    },
+    {"tag": "Curtis Busby-Earle",
+    "patterns": ["who is Curtis Busby-Earle","Curtis Busby-Earle Contact Details","Curtis Busby-Earle","Curtis Busby-Earle the lecturer"],
+    "responses": ["Dr. Curtis Busby-Earle<br>Senior Lecturer<br>curtis.busbyearle@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-curtis-busby-earle"]
+    },
+    {"tag": "Daniel N. Coore",
+    "patterns": ["who is Daniel N. Coore","Daniel N. Coore Contact Details","Daniel N. Coore","Daniel N. Coore the professor"],
+    "responses": ["Prof. Daniel N. Coore<br>Professor<br>daniel.coore@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/prof-daniel-n-coore"]
+    },
+    {"tag": "Anthony Drummonds",
+    "patterns": ["who is Anthony Drummonds","Anthony Drummonds Contact Details","Anthony Drummonds","Anthony Drummonds the instructor"],
+    "responses": ["Mr. Anthony Drummonds<br>Instructor<br>daniel.coore@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/mr-anthony-drummonds"]
+    },
+    {"tag": "Eyton Ferguson",
+    "patterns": ["who is Eyton Ferguson","Eyton Ferguson Contact Details","Eyton Ferguson","Eyton Ferguson the lecturer"],
+    "responses": ["Mr. Eyton Ferguson<br>Lecturer<br>eyton.ferguson@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/mr-eyton-ferguson"]
+    },
+    {"tag": "Daniel T. Fokum",
+    "patterns": ["who is Daniel T. Fokum","Daniel T. Fokum Contact Details","Daniel T. Fokum","Daniel T. Fokum the lecturer"],
+    "responses": ["Dr. Daniel T. Fokum<br>Senior Lecturer and Undergraduate Students Coordinator<br>daniel.fokum@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-daniel-t-fokum"]
+    },
+    {"tag": "Paul Gaynor",
+    "patterns": ["who is Paul Gaynor","Paul Gaynor Contact Details","Paul Gaynor","Paul Gaynor the lecturer"],
+    "responses": ["Dr. Paul Gaynor<br>Lecturer and Undergraduate Students Coordinator<br>paul.gaynor@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-paul-gaynor"]
+    },
+    {"tag": "A. G. Hamilton-Taylor",
+    "patterns": ["who is A. G. Hamilton-Taylor","A. G. Hamilton-Taylor Contact Details","A. G. Hamilton-Taylor","A. G. Hamilton-Taylor the lecturer"],
+    "responses": ["Dr. A. G. Hamilton-Taylor<br>Lecturer<br>ashley.taylor@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-g-hamilton-taylor"]
+    },
+    {"tag": "Gunjan Mansingh",
+    "patterns": ["who is Gunjan Mansingh","Gunjan Mansingh Contact Details","Gunjan Mansingh","Gunjan Mansingh the lecturer"],
+    "responses": ["Dr. Gunjan Mansingh<br>Senior Lecturer and Department Head<br>gunjan.mansingh@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-gunjan-mansingh"]
+    },
+    {"tag": "Kevin Miller",
+    "patterns": ["who is Kevin Miller","Kevin Miller Contact Details","Kevin Miller","Kevin Miller the lecturer"],
+    "responses": ["Dr. Kevin Miller<br>Lecturer<br>kevin.miller02@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-kevin-miller"]
+    },
+    {"tag": "Sean Miller",
+    "patterns": ["who is Sean Miller","Sean Miller Contact Details","Sean Miller","Sean Miller the lecturer"],
+    "responses": ["Mr. Sean Miller<br>Assistant Lecturer<br>sean.miller@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/mr-sean-miller"]
+    },
+    {"tag": "Ezra K. Mugisa",
+    "patterns": ["who is Ezra K. Mugisa","Ezra K. Mugisa Contact Details","Ezra K. Mugisa","Ezra K. Mugisa the lecturer"],
+    "responses": ["Dr. Ezra K. Mugisa<br>Senior Lecturer<br>ezra.mugisa@uwimona.edu.jm<br>View Profile at https://www.mona.uwi.edu/compsci/dr-ezra-k-mugisa"]
+    },
+    {"tag": "Felix Akinladejo",
+    "patterns": ["who is Felix Akinladejo","Felix Akinladejo Contact Details","Felix Akinladejo"],
+    "responses": ["Prof. Felix Akinladejo<br>Adjunct<br>View Profile at https://www.mona.uwi.edu/compsci/prof-felix-akinladejo"]
+    },
+    {"tag": "Patrick Anglin",
+    "patterns": ["who is Patrick Anglin","Patrick Anglin Contact Details","Patrick Anglin"],
+    "responses": ["Mr. Patrick Anglin<br>Adjunct<br>View Profile at https://www.mona.uwi.edu/compsci/mr-patrick-anglin"]
+    },
+    {"tag": "Yannick Lyn Fatt",
+    "patterns": ["who is Yannick Lyn Fatt","Yannick Lyn Fatt Contact Details","Yannick Lyn Fatt"],
+    "responses": ["Mr. Yannick Lyn Fatt<br>Adjunct<br>View Profile at https://www.mona.uwi.edu/compsci/mr-yannick-lynfatt"]
+    },
+    {"tag": "Bruce McDonald",
+    "patterns": ["who is Bruce McDonald","Bruce McDonald Contact Details","Bruce McDonald"],
+    "responses": ["Mr. Bruce McDonald<br>Adjunct<br>View Profile at https://www.mona.uwi.edu/compsci/mr-bruce-mcdonald"]
+    },
+    {"tag": "Kirk Morgan",
+    "patterns": ["who is Kirk Morgan","Kirk Morgan Contact Details","Kirk Morgan"],
+    "responses": ["Dr. Kirk Morgan<br>Adjunct<br>View Profile at https://www.mona.uwi.edu/compsci/dr-kirk-morgan"]
+    }
+    ]
+}
