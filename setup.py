@@ -4,11 +4,18 @@ import uvicorn
 from llama_index.llms.together import TogetherLLM
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
-
+# Set up CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 llm = TogetherLLM(
     model="mistralai/Mixtral-8x7B-Instruct-v0.1",
