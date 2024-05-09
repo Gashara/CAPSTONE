@@ -23,6 +23,7 @@ from llama_index.core.postprocessor import SentenceTransformerRerank
 from llama_index.core.storage.docstore import SimpleDocumentStore
 from llama_index.core.storage.index_store import  SimpleIndexStore
 app = FastAPI()
+#sasd
 class HybridRetriever(BaseRetriever):
     def __init__(self, vector_retriever, bm25_retriever):
         self.vector_retriever = vector_retriever
