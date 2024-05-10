@@ -1,16 +1,11 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
-import os
 from llama_index.llms.together import TogetherLLM
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core import Settings, StorageContext, load_index_from_storage,PromptTemplate
 from fastapi.middleware.cors import CORSMiddleware
 from llama_index.retrievers.bm25 import BM25Retriever
-from dotenv import load_dotenv
-from openai import OpenAI
-from llama_index.embeddings.openai import OpenAIEmbedding
-from llama_index.vector_stores.supabase import SupabaseVectorStore
 from llama_index.core.tools import RetrieverTool
 from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.retrievers import BaseRetriever
@@ -19,9 +14,6 @@ from llama_index.core.retrievers import RouterRetriever
 
 from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.postprocessor import SentenceTransformerRerank
-
-from llama_index.core.storage.docstore import SimpleDocumentStore
-from llama_index.core.storage.index_store import  SimpleIndexStore
 app = FastAPI()
 #sasd
 class HybridRetriever(BaseRetriever):
@@ -51,7 +43,7 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
-
+print("sdasd")
 llm = TogetherLLM(
     model="mistralai/Mixtral-8x7B-Instruct-v0.1",
     api_base="https://api.together.xyz/v1",
@@ -60,15 +52,10 @@ llm = TogetherLLM(
     is_function_calling_model=True,
     temperature=0.1,
 )
-load_dotenv()
-MY_ENV_VAR = os.getenv('OPENAI_API_KEY')
-#os.environ['OPENAI_KEY'] = os.getenv('OPENAI_API_KEY')
-client = OpenAI(
-  api_key=MY_ENV_VAR,
-)
-embed_model1=OpenAIEmbedding(embed_batch_size=10)
+
 
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en",embed_batch_size=10)
+print("sdasadasdsadsd")
 Settings.llm=llm
 Settings.embed_model=embed_model
 Settings.chunk_size= 1000
@@ -80,11 +67,7 @@ Settings.chunk_overlap= 20
 
 
 # rebuild storage context
-storage_context = StorageContext.from_defaults(
-    docstore=SimpleDocumentStore.from_persist_dir(persist_dir="./persist_data"),
-    
-    index_store=SimpleIndexStore.from_persist_dir(persist_dir="./persist_data"),
-)
+storage_context = StorageContext.from_defaults(persist_dir="./persist_data")
 
 
 try:
